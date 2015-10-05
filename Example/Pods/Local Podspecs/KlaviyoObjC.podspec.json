@@ -1,0 +1,25 @@
+{
+  "name": "KlaviyoObjC",
+  "version": "0.1.0",
+  "summary": "A short description of KlaviyoObjC.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KlaviyoObjC",
+  "license": "MIT",
+  "authors": {
+    "Katy Keuper": "katy.keuper@klaviyo.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KlaviyoObjC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "KlaviyoObjC": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

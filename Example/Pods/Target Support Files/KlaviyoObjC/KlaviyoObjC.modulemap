@@ -1,0 +1,6 @@
+framework module KlaviyoObjC {
+  umbrella header "KlaviyoObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

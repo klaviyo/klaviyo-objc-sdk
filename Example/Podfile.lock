@@ -1,0 +1,14 @@
+PODS:
+  - KlaviyoObjC (0.1.0)
+
+DEPENDENCIES:
+  - KlaviyoObjC (from `../`)
+
+EXTERNAL SOURCES:
+  KlaviyoObjC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KlaviyoObjC: 46b01ee26d34b57e7e88016f19e654ef20874dc5
+
+COCOAPODS: 0.38.2
