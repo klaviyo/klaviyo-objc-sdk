@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'KlaviyoObjC_Example', :exclusive => true do
+  pod "KlaviyoObjC", :path => "../"
+end
+
+target 'KlaviyoObjC_Tests', :exclusive => true do
+  pod "KlaviyoObjC", :path => "../"
+
+  
+end
