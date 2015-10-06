@@ -23,7 +23,11 @@ pod "KlaviyoObjC"
 
 ## Example Usage: Event Tracking
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first. Make sure any .m file using the Klaviyo SDK contains the import call.
+
+```objective-c
+#import "KlaviyoObjC/Klaviyo.h"
+```
 
 To add Klaviyo's tracking functionality, it requires just a few lines of code. First, in your application delegate file (under application:didFinishLaunchingWithOptions), add the following line to set up Klaviyo: 
 
