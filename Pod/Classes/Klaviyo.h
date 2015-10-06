@@ -34,6 +34,10 @@ extern NSString * const KLPersonZipDictKey;             // postal code where the
 
 @property (atomic) BOOL                             showNetworkActivityIndicator;
 
+/**
+    Set up Klaviyo to run in your application. Requires your Klaviyo Account ID/Public API Key.
+    @param apiKey String identifying the account ID/Public API Key. This can be found at klaviyo.com/integrations
+ */
 // Setup Public API key before use Klaviyo
 + (void)setupWithPublicAPIKey:(NSString*)apiKey;
 
@@ -53,7 +57,6 @@ extern NSString * const KLPersonZipDictKey;             // postal code where the
 - (void)trackEvent:(NSString*)eventName customerProperties:(NSDictionary*)customerPropertiesDict properties:(NSDictionary*)propertiesDict;
 
 // Track specific event with your custom properties and customer properties
-// Can use KLPersonIDDictKey or/and KLPersonEmailDictKey for customerPropertiesDict to identify customer and other custom properties
 // If you'd like to track an event that happened in past, use eventDate parameter
 - (void)trackEvent:(NSString*)eventName customerProperties:(NSDictionary*)customerPropertiesDict properties:(NSDictionary*)propertiesDict time:(NSDate*)eventDate;
 
@@ -64,10 +67,8 @@ extern NSString * const KLPersonZipDictKey;             // postal code where the
 // Register Klaviyo with Apple Push Notifications
 - (void)addPushDeviceToken:(NSData *)deviceToken;
 
-// NEW ADDITIONS
-// Register app user's email if know
+// Register app user's email if known
 - (void)setUpUserEmail:(NSString*)userEmail;
-
 
 - (void)trackPersonWithInfo;
 
