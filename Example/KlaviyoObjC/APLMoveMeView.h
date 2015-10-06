@@ -7,7 +7,7 @@ Contains a (placard) view that can be moved by touch. Illustrates handling touch
 */
 
 
-@interface KLMoveMeView : UIView
+@interface APLMoveMeView : UIView
 
 
 @end

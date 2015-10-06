@@ -5,11 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/KlaviyoObjC.svg?style=flat)](http://cocoapods.org/pods/KlaviyoObjC)
 [![Platform](https://img.shields.io/cocoapods/p/KlaviyoObjC.svg?style=flat)](http://cocoapods.org/pods/KlaviyoObjC)
 
-## Usage
+## Overview
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+KlaviyoObjC is an SDK, written im Objective-C, for users to incorporate Klaviyo's event tracking functionality into iOS applications. We also provide an SDK written in [Swift](https://github.com/klaviyo/klaviyo-swift-sdk). The two SDKs are identical in their functionality.
 
 ## Requirements
+*iOS 8.0
+
 
 ## Installation
 
@@ -19,6 +21,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "KlaviyoObjC"
 ```
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 

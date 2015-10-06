@@ -7,39 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		200FB2B40DC8F2AAD62D591E95192BF2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD9F0C55F34DC30E53FD80FAC3D9DA /* ReplaceMe.m */; };
+		03DCCF5B103D3E02C2081F707537DC3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470A9C71D15F5345D6C6A63054391A65 /* Foundation.framework */; };
 		32DFA33885C6FB8ACA06E1B5CF8C8FC9 /* Pods-KlaviyoObjC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2680BAC6F6CCA794E4ACEED33448E293 /* Pods-KlaviyoObjC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71495A3AF1474B490A5C5D894DF849D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BB01B798A3BA67E41160C868D09D8F /* Foundation.framework */; };
-		86899C4B32A7672DD20C7D35F5797198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BB01B798A3BA67E41160C868D09D8F /* Foundation.framework */; };
-		8B7E21EC3E4289046BE03557F79F2157 /* KlaviyoObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 235C40F13474D4D7489760BB06AB9E5E /* KlaviyoObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BC5D4CA421EAC393F9E7FAE6E39CEFB /* KlaviyoObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2F675C12DBC131B863D2992BECBA85 /* KlaviyoObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B1799AAFCC879A729C0DA9454E7EF1 /* NSData+KLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F8329C036EFC8F15C4E884CBBFD4B6 /* NSData+KLBase64.m */; };
+		654C972840A93A5547B966F217090552 /* KLReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7E1C6C7A3300BA9DA9A94BF8E0F619 /* KLReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769D46513257F9B6159AF83DCCA7FBFF /* Klaviyo.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BF88B85FE3E2A1DFBA1AD07C485707 /* Klaviyo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781475F1B26254CD7D32DC03F052DC0D /* KlaviyoObjC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DDC47530DBBCEB965A865BB6E6F97C2 /* KlaviyoObjC.bundle */; };
+		7C5E87D7F07AEDC1D623CAEFA56696E0 /* KLReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE8D4E52C1173A6DA7272FEED7CB80 /* KLReachability.m */; };
+		86899C4B32A7672DD20C7D35F5797198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470A9C71D15F5345D6C6A63054391A65 /* Foundation.framework */; };
 		8E9F6EEC167621B9A2A8BD9578D5A818 /* Pods-KlaviyoObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E2F523CAE5A2A76A03BF6C04CFA898 /* Pods-KlaviyoObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FB8EA73568466F9B5B753EFE1319D18 /* Pods-KlaviyoObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CFC58BE3484FB0F096FA399FC7D6C /* Pods-KlaviyoObjC_Example-dummy.m */; };
-		E2D765D7621F4521246E4A9EC23A53E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BB01B798A3BA67E41160C868D09D8F /* Foundation.framework */; };
-		E3B455A3C2E487F3B8E963EC452D654B /* KlaviyoObjC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71391440F7F19F2B208EF98769A8CB46 /* KlaviyoObjC.bundle */; };
-		E92D2F0AA4CCE210DF035C8136445548 /* KlaviyoObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7B89915A65DFEA56E092F0F7EA6E02 /* KlaviyoObjC-dummy.m */; };
+		9E9CA2E2F73F7EB15F7AC81EB06E4482 /* NSData+KLBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 90885CFE950461D844EE96896B542809 /* NSData+KLBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF56218E4C6D01F04C7125D636EAB5B1 /* KLDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CB667D4B16DAD64948DDD199ED3530 /* KLDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89BBE40F41FE14E74B62D98FFA15AE2 /* KlaviyoObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B42DC1A9F0012AD0AA8A5C6C36E003D /* KlaviyoObjC-dummy.m */; };
+		DEF661EBE274E8670B925E740F8E6868 /* Klaviyo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8AFD56E9BDE3C532B3A0779DB1B3E7 /* Klaviyo.m */; };
+		E2D765D7621F4521246E4A9EC23A53E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470A9C71D15F5345D6C6A63054391A65 /* Foundation.framework */; };
 		F036557CE16B3D9434DC1BDA96379A10 /* Pods-KlaviyoObjC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D98DF1A135BB0EC095044EC729943 /* Pods-KlaviyoObjC_Tests-dummy.m */; };
+		F5185480D0AF5F8FDCAA99031DE14549 /* KLDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC397F6FD94AA101B83D3B1D276BE51A /* KLDefinitions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		610E27F0A4C78DDF9566A4EF0F373EBD /* PBXContainerItemProxy */ = {
+		2D9358AB95A8BB863A18378557F78157 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 96029869264CDBEE3D90ADA95090C71F;
+			remoteGlobalIDString = ABCADDE3C8BC0616B507F0C885741BC1;
 			remoteInfo = KlaviyoObjC;
 		};
-		827F0050A4D116C26B069299DB7D1679 /* PBXContainerItemProxy */ = {
+		F1A6D3ABB146F0F1C09D3C37F6711D5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5FD10B60EBE5FCF452348F7DB1FB7F5F;
+			remoteGlobalIDString = 4A8122DFED8C92293A4B270A694F992A;
 			remoteInfo = "KlaviyoObjC-KlaviyoObjC";
 		};
-		F8216DD142791FA43064C0F7BCCC8163 /* PBXContainerItemProxy */ = {
+		F8C0B0C29A20899AE1474D7F742BC640 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 96029869264CDBEE3D90ADA95090C71F;
+			remoteGlobalIDString = ABCADDE3C8BC0616B507F0C885741BC1;
 			remoteInfo = KlaviyoObjC;
 		};
 /* End PBXContainerItemProxy section */
@@ -47,38 +54,45 @@
 /* Begin PBXFileReference section */
 		0C9647BF2BA5368510CAD929223E476A /* Pods-KlaviyoObjC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KlaviyoObjC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E9CFC58BE3484FB0F096FA399FC7D6C /* Pods-KlaviyoObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KlaviyoObjC_Example-dummy.m"; sourceTree = "<group>"; };
+		136649F65B95048F4D3EF8EA5082F9CD /* KlaviyoObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KlaviyoObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C352A7363E7A14B5701D66CF2703274 /* Pods-KlaviyoObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KlaviyoObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1CE3F183FDBE32D3EC6EA55038E5EB9A /* KlaviyoObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KlaviyoObjC.modulemap; sourceTree = "<group>"; };
-		235C40F13474D4D7489760BB06AB9E5E /* KlaviyoObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KlaviyoObjC-umbrella.h"; sourceTree = "<group>"; };
 		24317BC3708EED15DC85F001C1ABDA0E /* Pods-KlaviyoObjC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KlaviyoObjC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2588D75B91B9B38B0456C4F8D59F9A34 /* Pods-KlaviyoObjC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KlaviyoObjC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2680BAC6F6CCA794E4ACEED33448E293 /* Pods-KlaviyoObjC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KlaviyoObjC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		288029DAFA7C900149E33B736C4083C9 /* Pods-KlaviyoObjC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KlaviyoObjC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2DCE3B90ADC5330176BEC2D1CB4A1832 /* Pods-KlaviyoObjC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KlaviyoObjC_Example-resources.sh"; sourceTree = "<group>"; };
+		39EE8D4E52C1173A6DA7272FEED7CB80 /* KLReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KLReachability.m; sourceTree = "<group>"; };
+		3B42DC1A9F0012AD0AA8A5C6C36E003D /* KlaviyoObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KlaviyoObjC-dummy.m"; sourceTree = "<group>"; };
+		3F8AFD56E9BDE3C532B3A0779DB1B3E7 /* Klaviyo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Klaviyo.m; sourceTree = "<group>"; };
 		4139BDFB0AA3CE7574230221D1BD6C77 /* Pods-KlaviyoObjC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KlaviyoObjC_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		470A9C71D15F5345D6C6A63054391A65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		47E2F523CAE5A2A76A03BF6C04CFA898 /* Pods-KlaviyoObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KlaviyoObjC_Example-umbrella.h"; sourceTree = "<group>"; };
-		496FDBA4AE606F7DA365D53F8D813B6C /* KlaviyoObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KlaviyoObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC5AA162BF4F7BCAA92E288F5219772 /* Pods-KlaviyoObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KlaviyoObjC_Tests.modulemap"; sourceTree = "<group>"; };
-		602152B313DE7AD06477CAE7E71149A5 /* Pods-KlaviyoObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KlaviyoObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6BDD9F0C55F34DC30E53FD80FAC3D9DA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		71391440F7F19F2B208EF98769A8CB46 /* KlaviyoObjC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlaviyoObjC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDC47530DBBCEB965A865BB6E6F97C2 /* KlaviyoObjC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlaviyoObjC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FE625D5B58D0F43838539366D478D5 /* Pods-KlaviyoObjC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KlaviyoObjC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		768FC04ED93B543C24CCD009808BB567 /* KlaviyoObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KlaviyoObjC-prefix.pch"; sourceTree = "<group>"; };
-		78DAB630462DECD431B08030A795B124 /* Pods-KlaviyoObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KlaviyoObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EBF611348C9E3A5B092F706A4058348 /* KlaviyoObjC-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KlaviyoObjC-Private.xcconfig"; sourceTree = "<group>"; };
 		8152DCA51B687178E69FF7657BB1415B /* Pods_KlaviyoObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlaviyoObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BF88B85FE3E2A1DFBA1AD07C485707 /* Klaviyo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Klaviyo.h; sourceTree = "<group>"; };
+		90885CFE950461D844EE96896B542809 /* NSData+KLBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+KLBase64.h"; sourceTree = "<group>"; };
 		9F3D98DF1A135BB0EC095044EC729943 /* Pods-KlaviyoObjC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KlaviyoObjC_Tests-dummy.m"; sourceTree = "<group>"; };
+		A2156A4E538CC27831FCE18BC1C017DD /* Pods-KlaviyoObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KlaviyoObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2DC27A51C71FC1036CAC28F931846A2 /* KlaviyoObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KlaviyoObjC.xcconfig; sourceTree = "<group>"; };
 		A5D446F87B2927B07068EE2A4301485B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0BB01B798A3BA67E41160C868D09D8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B145D9C4ABF0CEE003DD3CC14244B4EF /* Pods_KlaviyoObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlaviyoObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73DA64B3F3525F7571173AE8284EE28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85CD68FF420061F6CC0668E27D3F8CD /* Pods-KlaviyoObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KlaviyoObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB2CEF0EA93E1E94190FBAEBED7C8A2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD7B89915A65DFEA56E092F0F7EA6E02 /* KlaviyoObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KlaviyoObjC-dummy.m"; sourceTree = "<group>"; };
-		CCC55216662A0E1C87454F01559B3055 /* KlaviyoObjC-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KlaviyoObjC-Private.xcconfig"; sourceTree = "<group>"; };
+		BC397F6FD94AA101B83D3B1D276BE51A /* KLDefinitions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KLDefinitions.m; sourceTree = "<group>"; };
+		C48CFD31B9D5C394F3015F940FD42121 /* Pods-KlaviyoObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KlaviyoObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1C6241251DEA841FCA41D08D5DC5FB7 /* Pods-KlaviyoObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KlaviyoObjC_Example.modulemap"; sourceTree = "<group>"; };
-		DB1C76771863F781174E5DE2851D98A7 /* Pods-KlaviyoObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KlaviyoObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DB3655985313FA3B932C1D55027198D7 /* Pods-KlaviyoObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KlaviyoObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F8329C036EFC8F15C4E884CBBFD4B6 /* NSData+KLBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+KLBase64.m"; sourceTree = "<group>"; };
 		F8FBBA0B6A5D1B1FB9470CD4481A1E5E /* Pods-KlaviyoObjC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KlaviyoObjC_Tests-resources.sh"; sourceTree = "<group>"; };
+		F9CB667D4B16DAD64948DDD199ED3530 /* KLDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KLDefinitions.h; sourceTree = "<group>"; };
+		FD2F675C12DBC131B863D2992BECBA85 /* KlaviyoObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KlaviyoObjC-umbrella.h"; sourceTree = "<group>"; };
+		FE7E1C6C7A3300BA9DA9A94BF8E0F619 /* KLReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KLReachability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +104,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F440BD77A26FDD6D3136AE030ED4044 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		41FC15BF51530ED63DD4324DD6BAF446 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,11 +112,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7C54FF2F7D5059FD841ED93B5885CD /* Frameworks */ = {
+		5AB31694D287DE37ADB264FE0D5CD767 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71495A3AF1474B490A5C5D894DF849D7 /* Foundation.framework in Frameworks */,
+				03DCCF5B103D3E02C2081F707537DC3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E12EF4A45A49C057B9FCA9E992E168E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,8 +141,8 @@
 				2588D75B91B9B38B0456C4F8D59F9A34 /* Pods-KlaviyoObjC_Example-frameworks.sh */,
 				2DCE3B90ADC5330176BEC2D1CB4A1832 /* Pods-KlaviyoObjC_Example-resources.sh */,
 				47E2F523CAE5A2A76A03BF6C04CFA898 /* Pods-KlaviyoObjC_Example-umbrella.h */,
-				DB3655985313FA3B932C1D55027198D7 /* Pods-KlaviyoObjC_Example.debug.xcconfig */,
-				602152B313DE7AD06477CAE7E71149A5 /* Pods-KlaviyoObjC_Example.release.xcconfig */,
+				1C352A7363E7A14B5701D66CF2703274 /* Pods-KlaviyoObjC_Example.debug.xcconfig */,
+				B85CD68FF420061F6CC0668E27D3F8CD /* Pods-KlaviyoObjC_Example.release.xcconfig */,
 			);
 			name = "Pods-KlaviyoObjC_Example";
 			path = "Target Support Files/Pods-KlaviyoObjC_Example";
@@ -145,17 +159,32 @@
 				4139BDFB0AA3CE7574230221D1BD6C77 /* Pods-KlaviyoObjC_Tests-frameworks.sh */,
 				F8FBBA0B6A5D1B1FB9470CD4481A1E5E /* Pods-KlaviyoObjC_Tests-resources.sh */,
 				2680BAC6F6CCA794E4ACEED33448E293 /* Pods-KlaviyoObjC_Tests-umbrella.h */,
-				78DAB630462DECD431B08030A795B124 /* Pods-KlaviyoObjC_Tests.debug.xcconfig */,
-				DB1C76771863F781174E5DE2851D98A7 /* Pods-KlaviyoObjC_Tests.release.xcconfig */,
+				C48CFD31B9D5C394F3015F940FD42121 /* Pods-KlaviyoObjC_Tests.debug.xcconfig */,
+				A2156A4E538CC27831FCE18BC1C017DD /* Pods-KlaviyoObjC_Tests.release.xcconfig */,
 			);
 			name = "Pods-KlaviyoObjC_Tests";
 			path = "Target Support Files/Pods-KlaviyoObjC_Tests";
 			sourceTree = "<group>";
 		};
+		407948A05C8270F40B9D01D679F1F2DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9CB667D4B16DAD64948DDD199ED3530 /* KLDefinitions.h */,
+				BC397F6FD94AA101B83D3B1D276BE51A /* KLDefinitions.m */,
+				FE7E1C6C7A3300BA9DA9A94BF8E0F619 /* KLReachability.h */,
+				39EE8D4E52C1173A6DA7272FEED7CB80 /* KLReachability.m */,
+				85BF88B85FE3E2A1DFBA1AD07C485707 /* Klaviyo.h */,
+				3F8AFD56E9BDE3C532B3A0779DB1B3E7 /* Klaviyo.m */,
+				90885CFE950461D844EE96896B542809 /* NSData+KLBase64.h */,
+				E3F8329C036EFC8F15C4E884CBBFD4B6 /* NSData+KLBase64.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		441E4E9497C7D39F3AA7D8B18716BE52 /* KlaviyoObjC */ = {
 			isa = PBXGroup;
 			children = (
-				D30F28C83AC7BFDD00404088397C2425 /* Pod */,
+				E50ACD7747941FB2A94F69485B28DF83 /* Pod */,
 				A5EDDD324C81F6E20EF33D9B4CAD10E2 /* Support Files */,
 			);
 			name = KlaviyoObjC;
@@ -165,7 +194,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B0BB01B798A3BA67E41160C868D09D8F /* Foundation.framework */,
+				470A9C71D15F5345D6C6A63054391A65 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -196,21 +225,13 @@
 				BB2CEF0EA93E1E94190FBAEBED7C8A2A /* Info.plist */,
 				1CE3F183FDBE32D3EC6EA55038E5EB9A /* KlaviyoObjC.modulemap */,
 				A2DC27A51C71FC1036CAC28F931846A2 /* KlaviyoObjC.xcconfig */,
-				CCC55216662A0E1C87454F01559B3055 /* KlaviyoObjC-Private.xcconfig */,
-				BD7B89915A65DFEA56E092F0F7EA6E02 /* KlaviyoObjC-dummy.m */,
+				7EBF611348C9E3A5B092F706A4058348 /* KlaviyoObjC-Private.xcconfig */,
+				3B42DC1A9F0012AD0AA8A5C6C36E003D /* KlaviyoObjC-dummy.m */,
 				768FC04ED93B543C24CCD009808BB567 /* KlaviyoObjC-prefix.pch */,
-				235C40F13474D4D7489760BB06AB9E5E /* KlaviyoObjC-umbrella.h */,
+				FD2F675C12DBC131B863D2992BECBA85 /* KlaviyoObjC-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KlaviyoObjC";
-			sourceTree = "<group>";
-		};
-		BA4E84A009EFF9B6B20A1E26BE396DC6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6BDD9F0C55F34DC30E53FD80FAC3D9DA /* ReplaceMe.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BA5481C11B7CE03924FDC982D5C454DC /* Development Pods */ = {
@@ -232,18 +253,18 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71391440F7F19F2B208EF98769A8CB46 /* KlaviyoObjC.bundle */,
-				496FDBA4AE606F7DA365D53F8D813B6C /* KlaviyoObjC.framework */,
+				6DDC47530DBBCEB965A865BB6E6F97C2 /* KlaviyoObjC.bundle */,
+				136649F65B95048F4D3EF8EA5082F9CD /* KlaviyoObjC.framework */,
 				8152DCA51B687178E69FF7657BB1415B /* Pods_KlaviyoObjC_Example.framework */,
 				B145D9C4ABF0CEE003DD3CC14244B4EF /* Pods_KlaviyoObjC_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D30F28C83AC7BFDD00404088397C2425 /* Pod */ = {
+		E50ACD7747941FB2A94F69485B28DF83 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BA4E84A009EFF9B6B20A1E26BE396DC6 /* Classes */,
+				407948A05C8270F40B9D01D679F1F2DA /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -251,11 +272,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A0756710D1CE9E5515706277AF9B6FCD /* Headers */ = {
+		5C0CB4959E1D1323E0C6E2F40CB7C8C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B7E21EC3E4289046BE03557F79F2157 /* KlaviyoObjC-umbrella.h in Headers */,
+				BF56218E4C6D01F04C7125D636EAB5B1 /* KLDefinitions.h in Headers */,
+				654C972840A93A5547B966F217090552 /* KLReachability.h in Headers */,
+				769D46513257F9B6159AF83DCCA7FBFF /* Klaviyo.h in Headers */,
+				3BC5D4CA421EAC393F9E7FAE6E39CEFB /* KlaviyoObjC-umbrella.h in Headers */,
+				9E9CA2E2F73F7EB15F7AC81EB06E4482 /* NSData+KLBase64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,20 +314,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				794AF382D957BFEADB4BFD1584F508C4 /* PBXTargetDependency */,
+				EED9067CA97B249FAF4EC8617AAA5806 /* PBXTargetDependency */,
 			);
 			name = "Pods-KlaviyoObjC_Example";
 			productName = "Pods-KlaviyoObjC_Example";
 			productReference = 8152DCA51B687178E69FF7657BB1415B /* Pods_KlaviyoObjC_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5FD10B60EBE5FCF452348F7DB1FB7F5F /* KlaviyoObjC-KlaviyoObjC */ = {
+		4A8122DFED8C92293A4B270A694F992A /* KlaviyoObjC-KlaviyoObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A911B37D313AA517E56C40573119820D /* Build configuration list for PBXNativeTarget "KlaviyoObjC-KlaviyoObjC" */;
+			buildConfigurationList = 5D3467923769F5B38D0558E97B78E2C9 /* Build configuration list for PBXNativeTarget "KlaviyoObjC-KlaviyoObjC" */;
 			buildPhases = (
-				E1CD41AADEE9809E4D57C98625C87609 /* Sources */,
-				0F440BD77A26FDD6D3136AE030ED4044 /* Frameworks */,
-				6C9291774FB7C270E5A1F98785DA8698 /* Resources */,
+				81B833774C1B6B3DB75FAD29586E1DB6 /* Sources */,
+				5E12EF4A45A49C057B9FCA9E992E168E /* Frameworks */,
+				D4FFFE14B96E1AD7BE1352C41D4DF7D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -310,7 +335,7 @@
 			);
 			name = "KlaviyoObjC-KlaviyoObjC";
 			productName = "KlaviyoObjC-KlaviyoObjC";
-			productReference = 71391440F7F19F2B208EF98769A8CB46 /* KlaviyoObjC.bundle */;
+			productReference = 6DDC47530DBBCEB965A865BB6E6F97C2 /* KlaviyoObjC.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		6182BC8C4E29D042C0D5ED4422E4A8D8 /* Pods-KlaviyoObjC_Tests */ = {
@@ -324,30 +349,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				AF1E89EAC1AD7832C93C5187A1D960BD /* PBXTargetDependency */,
+				A3806D6558BC2A7074423B38FF8B2B92 /* PBXTargetDependency */,
 			);
 			name = "Pods-KlaviyoObjC_Tests";
 			productName = "Pods-KlaviyoObjC_Tests";
 			productReference = B145D9C4ABF0CEE003DD3CC14244B4EF /* Pods_KlaviyoObjC_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		96029869264CDBEE3D90ADA95090C71F /* KlaviyoObjC */ = {
+		ABCADDE3C8BC0616B507F0C885741BC1 /* KlaviyoObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7FF7522AD516C339091753756F4E293 /* Build configuration list for PBXNativeTarget "KlaviyoObjC" */;
+			buildConfigurationList = F16188D0F87628EF1FD18854B93B321F /* Build configuration list for PBXNativeTarget "KlaviyoObjC" */;
 			buildPhases = (
-				330E0AFC66DBD82FC379785D42C4857C /* Sources */,
-				FB7C54FF2F7D5059FD841ED93B5885CD /* Frameworks */,
-				38502DA444175243D8EDB16CF15BC4CB /* Resources */,
-				A0756710D1CE9E5515706277AF9B6FCD /* Headers */,
+				6F917E6F0AE0AC4A9B3062B80854C095 /* Sources */,
+				5AB31694D287DE37ADB264FE0D5CD767 /* Frameworks */,
+				C15C30F31D9FC4E52A62C6CA49CA74BF /* Resources */,
+				5C0CB4959E1D1323E0C6E2F40CB7C8C9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61D7ED45B541AF601C77629ED013ECDA /* PBXTargetDependency */,
+				F03E043A4D16FA8778463313526A6946 /* PBXTargetDependency */,
 			);
 			name = KlaviyoObjC;
 			productName = KlaviyoObjC;
-			productReference = 496FDBA4AE606F7DA365D53F8D813B6C /* KlaviyoObjC.framework */;
+			productReference = 136649F65B95048F4D3EF8EA5082F9CD /* KlaviyoObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -371,8 +396,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96029869264CDBEE3D90ADA95090C71F /* KlaviyoObjC */,
-				5FD10B60EBE5FCF452348F7DB1FB7F5F /* KlaviyoObjC-KlaviyoObjC */,
+				ABCADDE3C8BC0616B507F0C885741BC1 /* KlaviyoObjC */,
+				4A8122DFED8C92293A4B270A694F992A /* KlaviyoObjC-KlaviyoObjC */,
 				02CC2E96AC3B54D3601CC627DF434A92 /* Pods-KlaviyoObjC_Example */,
 				6182BC8C4E29D042C0D5ED4422E4A8D8 /* Pods-KlaviyoObjC_Tests */,
 			);
@@ -380,15 +405,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		38502DA444175243D8EDB16CF15BC4CB /* Resources */ = {
+		C15C30F31D9FC4E52A62C6CA49CA74BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B455A3C2E487F3B8E963EC452D654B /* KlaviyoObjC.bundle in Resources */,
+				781475F1B26254CD7D32DC03F052DC0D /* KlaviyoObjC.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C9291774FB7C270E5A1F98785DA8698 /* Resources */ = {
+		D4FFFE14B96E1AD7BE1352C41D4DF7D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,12 +431,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		330E0AFC66DBD82FC379785D42C4857C /* Sources */ = {
+		6F917E6F0AE0AC4A9B3062B80854C095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92D2F0AA4CCE210DF035C8136445548 /* KlaviyoObjC-dummy.m in Sources */,
-				200FB2B40DC8F2AAD62D591E95192BF2 /* ReplaceMe.m in Sources */,
+				F5185480D0AF5F8FDCAA99031DE14549 /* KLDefinitions.m in Sources */,
+				7C5E87D7F07AEDC1D623CAEFA56696E0 /* KLReachability.m in Sources */,
+				DEF661EBE274E8670B925E740F8E6868 /* Klaviyo.m in Sources */,
+				D89BBE40F41FE14E74B62D98FFA15AE2 /* KlaviyoObjC-dummy.m in Sources */,
+				58B1799AAFCC879A729C0DA9454E7EF1 /* NSData+KLBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +451,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1CD41AADEE9809E4D57C98625C87609 /* Sources */ = {
+		81B833774C1B6B3DB75FAD29586E1DB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,64 +461,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61D7ED45B541AF601C77629ED013ECDA /* PBXTargetDependency */ = {
+		A3806D6558BC2A7074423B38FF8B2B92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KlaviyoObjC;
+			target = ABCADDE3C8BC0616B507F0C885741BC1 /* KlaviyoObjC */;
+			targetProxy = F8C0B0C29A20899AE1474D7F742BC640 /* PBXContainerItemProxy */;
+		};
+		EED9067CA97B249FAF4EC8617AAA5806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KlaviyoObjC;
+			target = ABCADDE3C8BC0616B507F0C885741BC1 /* KlaviyoObjC */;
+			targetProxy = 2D9358AB95A8BB863A18378557F78157 /* PBXContainerItemProxy */;
+		};
+		F03E043A4D16FA8778463313526A6946 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "KlaviyoObjC-KlaviyoObjC";
-			target = 5FD10B60EBE5FCF452348F7DB1FB7F5F /* KlaviyoObjC-KlaviyoObjC */;
-			targetProxy = 827F0050A4D116C26B069299DB7D1679 /* PBXContainerItemProxy */;
-		};
-		794AF382D957BFEADB4BFD1584F508C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KlaviyoObjC;
-			target = 96029869264CDBEE3D90ADA95090C71F /* KlaviyoObjC */;
-			targetProxy = F8216DD142791FA43064C0F7BCCC8163 /* PBXContainerItemProxy */;
-		};
-		AF1E89EAC1AD7832C93C5187A1D960BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KlaviyoObjC;
-			target = 96029869264CDBEE3D90ADA95090C71F /* KlaviyoObjC */;
-			targetProxy = 610E27F0A4C78DDF9566A4EF0F373EBD /* PBXContainerItemProxy */;
+			target = 4A8122DFED8C92293A4B270A694F992A /* KlaviyoObjC-KlaviyoObjC */;
+			targetProxy = F1A6D3ABB146F0F1C09D3C37F6711D5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		0F6DCA5B9E2E88039FF51B7BAF26C49D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBF611348C9E3A5B092F706A4058348 /* KlaviyoObjC-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KlaviyoObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		06F297AEE6050140A980C014262D0BA8 /* Debug */ = {
+		18EDD578D3386A5CD8473D10996C41B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCC55216662A0E1C87454F01559B3055 /* KlaviyoObjC-Private.xcconfig */;
+			baseConfigurationReference = 7EBF611348C9E3A5B092F706A4058348 /* KlaviyoObjC-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.1.0;
@@ -502,10 +508,10 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KlaviyoObjC/KlaviyoObjC-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KlaviyoObjC/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KlaviyoObjC/KlaviyoObjC.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = KlaviyoObjC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -513,9 +519,38 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		2EE1AD720E60DB204DC9343D3B3A8FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2156A4E538CC27831FCE18BC1C017DD /* Pods-KlaviyoObjC_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KlaviyoObjC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KlaviyoObjC_Tests/Pods-KlaviyoObjC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KlaviyoObjC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -547,115 +582,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		22188DFCF3F701DC57271498969E1A30 /* Debug */ = {
+		A7E9AA5086ECD24DC7458E515A7A585E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB3655985313FA3B932C1D55027198D7 /* Pods-KlaviyoObjC_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KlaviyoObjC_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KlaviyoObjC_Example/Pods-KlaviyoObjC_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_KlaviyoObjC_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		24732A8893BF53BA7DD6B9628550B729 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB1C76771863F781174E5DE2851D98A7 /* Pods-KlaviyoObjC_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KlaviyoObjC_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KlaviyoObjC_Tests/Pods-KlaviyoObjC_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_KlaviyoObjC_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4482A68E219230779C8BFEE22CE56BF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78DAB630462DECD431B08030A795B124 /* Pods-KlaviyoObjC_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KlaviyoObjC_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KlaviyoObjC_Tests/Pods-KlaviyoObjC_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_KlaviyoObjC_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5C5125A31D2790E19E36BAA6DCA46D93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCC55216662A0E1C87454F01559B3055 /* KlaviyoObjC-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = KlaviyoObjC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		CDCFFB2B8452390704BB4A3BD4BA6505 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCC55216662A0E1C87454F01559B3055 /* KlaviyoObjC-Private.xcconfig */;
+			baseConfigurationReference = 7EBF611348C9E3A5B092F706A4058348 /* KlaviyoObjC-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.1.0;
@@ -667,10 +603,10 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KlaviyoObjC/KlaviyoObjC-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KlaviyoObjC/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KlaviyoObjC/KlaviyoObjC.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = KlaviyoObjC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -678,11 +614,40 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		D4D0F25578B294A632F43646517F7CC1 /* Release */ = {
+		A8DA562367CDCF2D3BB709DAD821A51A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 602152B313DE7AD06477CAE7E71149A5 /* Pods-KlaviyoObjC_Example.release.xcconfig */;
+			baseConfigurationReference = C48CFD31B9D5C394F3015F940FD42121 /* Pods-KlaviyoObjC_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KlaviyoObjC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KlaviyoObjC_Tests/Pods-KlaviyoObjC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KlaviyoObjC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0FBC5BB790F2A1B92A0E0C3B0BEBA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85CD68FF420061F6CC0668E27D3F8CD /* Pods-KlaviyoObjC_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -693,7 +658,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-KlaviyoObjC_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-KlaviyoObjC_Example/Pods-KlaviyoObjC_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -709,9 +674,9 @@
 			};
 			name = Release;
 		};
-		EF8863C099CE98FC39907D4CF70075AD /* Debug */ = {
+		E11117E5BCAE8053C5893F69BB075B37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCC55216662A0E1C87454F01559B3055 /* KlaviyoObjC-Private.xcconfig */;
+			baseConfigurationReference = 7EBF611348C9E3A5B092F706A4058348 /* KlaviyoObjC-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = KlaviyoObjC;
@@ -719,7 +684,70 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
+			name = Release;
+		};
+		F467F5B2723599A78A199BBF160B832E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C352A7363E7A14B5701D66CF2703274 /* Pods-KlaviyoObjC_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KlaviyoObjC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KlaviyoObjC_Example/Pods-KlaviyoObjC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KlaviyoObjC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -727,8 +755,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -736,8 +764,8 @@
 		334992D425F6BE34B4393F6D20439ED0 /* Build configuration list for PBXNativeTarget "Pods-KlaviyoObjC_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4482A68E219230779C8BFEE22CE56BF1 /* Debug */,
-				24732A8893BF53BA7DD6B9628550B729 /* Release */,
+				A8DA562367CDCF2D3BB709DAD821A51A /* Debug */,
+				2EE1AD720E60DB204DC9343D3B3A8FBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -745,26 +773,26 @@
 		4533628CDD7BB327DFC9D459057648F5 /* Build configuration list for PBXNativeTarget "Pods-KlaviyoObjC_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22188DFCF3F701DC57271498969E1A30 /* Debug */,
-				D4D0F25578B294A632F43646517F7CC1 /* Release */,
+				F467F5B2723599A78A199BBF160B832E /* Debug */,
+				B0FBC5BB790F2A1B92A0E0C3B0BEBA5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7FF7522AD516C339091753756F4E293 /* Build configuration list for PBXNativeTarget "KlaviyoObjC" */ = {
+		5D3467923769F5B38D0558E97B78E2C9 /* Build configuration list for PBXNativeTarget "KlaviyoObjC-KlaviyoObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06F297AEE6050140A980C014262D0BA8 /* Debug */,
-				CDCFFB2B8452390704BB4A3BD4BA6505 /* Release */,
+				0F6DCA5B9E2E88039FF51B7BAF26C49D /* Debug */,
+				E11117E5BCAE8053C5893F69BB075B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A911B37D313AA517E56C40573119820D /* Build configuration list for PBXNativeTarget "KlaviyoObjC-KlaviyoObjC" */ = {
+		F16188D0F87628EF1FD18854B93B321F /* Build configuration list for PBXNativeTarget "KlaviyoObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF8863C099CE98FC39907D4CF70075AD /* Debug */,
-				5C5125A31D2790E19E36BAA6DCA46D93 /* Release */,
+				A7E9AA5086ECD24DC7458E515A7A585E /* Debug */,
+				18EDD578D3386A5CD8473D10996C41B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EDB124B1BC301B300D1CB87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDB124A1BC301B300D1CB87 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		2EDB124E1BC301FB00D1CB87 /* APLMoveMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB124D1BC301FB00D1CB87 /* APLMoveMeView.m */; settings = {ASSET_TAGS = (); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,7 +22,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8CF74DB3180BF31B7989F6D5 /* Pods_KlaviyoObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDCF0C82E563F2B5AF94BE3 /* Pods_KlaviyoObjC_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B9746DE81F704579D1A4BEA2 /* Pods_KlaviyoObjC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A2C4A4E54479C3E3FB2958 /* Pods_KlaviyoObjC_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -37,7 +38,10 @@
 
 /* Begin PBXFileReference section */
 		0CB06E31861DB180E50F4412 /* Pods-KlaviyoObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoObjC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KlaviyoObjC_Example/Pods-KlaviyoObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* KlaviyoObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = KlaviyoObjC.app; path = KlaviyoObjC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDB124A1BC301B300D1CB87 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2EDB124C1BC301FB00D1CB87 /* APLMoveMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLMoveMeView.h; sourceTree = "<group>"; };
+		2EDB124D1BC301FB00D1CB87 /* APLMoveMeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLMoveMeView.m; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* KlaviyoObjC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlaviyoObjC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -50,14 +54,13 @@
 		6003F5A5195388D20070C39A /* KLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* KLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = KlaviyoObjC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* KlaviyoObjC_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlaviyoObjC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7DE1291D06CD331FE9481779 /* KlaviyoObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KlaviyoObjC.podspec; path = ../KlaviyoObjC.podspec; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A1A2C4A4E54479C3E3FB2958 /* Pods_KlaviyoObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlaviyoObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBA0EC38E5534530617ED89 /* Pods-KlaviyoObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlaviyoObjC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KlaviyoObjC_Example/Pods-KlaviyoObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACDCF0C82E563F2B5AF94BE3 /* Pods_KlaviyoObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlaviyoObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,8 +122,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* KlaviyoObjC.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* KlaviyoObjC_Example.app */,
+				6003F5AE195388D20070C39A /* KlaviyoObjC_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,9 +144,11 @@
 		6003F593195388D20070C39A /* Example for KlaviyoObjC */ = {
 			isa = PBXGroup;
 			children = (
+				2EDB124C1BC301FB00D1CB87 /* APLMoveMeView.h */,
+				2EDB124D1BC301FB00D1CB87 /* APLMoveMeView.m */,
 				6003F59C195388D20070C39A /* KLAppDelegate.h */,
 				6003F59D195388D20070C39A /* KLAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				2EDB124A1BC301B300D1CB87 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KLViewController.h */,
 				6003F5A6195388D20070C39A /* KLViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -213,7 +218,7 @@
 			);
 			name = KlaviyoObjC_Example;
 			productName = KlaviyoObjC;
-			productReference = 6003F58A195388D20070C39A /* KlaviyoObjC.app */;
+			productReference = 6003F58A195388D20070C39A /* KlaviyoObjC_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* KlaviyoObjC_Tests */ = {
@@ -234,7 +239,7 @@
 			);
 			name = KlaviyoObjC_Tests;
 			productName = KlaviyoObjCTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* KlaviyoObjC_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -276,8 +281,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				2EDB124B1BC301B300D1CB87 /* Main.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +398,7 @@
 				6003F59E195388D20070C39A /* KLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2EDB124E1BC301FB00D1CB87 /* APLMoveMeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KlaviyoObjC/KlaviyoObjC-Prefix.pch";
 				INFOPLIST_FILE = "KlaviyoObjC/KlaviyoObjC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -530,6 +537,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KlaviyoObjC/KlaviyoObjC-Prefix.pch";
 				INFOPLIST_FILE = "KlaviyoObjC/KlaviyoObjC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

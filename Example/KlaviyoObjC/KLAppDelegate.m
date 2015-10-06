@@ -7,11 +7,27 @@
 //
 
 #import "KLAppDelegate.h"
+#import "KlaviyoObjC/Klaviyo.h"
 
 @implementation KLAppDelegate
+@synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Set Up Access to the Klaviyo API
+    [Klaviyo setupWithPublicAPIKey:@"YOUR_PUBLIC_API_KEY"];
+    
+    // Optional: If app knows user info prior to loading, can add tracking info here
+    //[[Klaviyo sharedInstance] setUpUserEmail:@"user-email@example.com"];
+    
+    // NSMutableDictionary *customerProperties = [NSMutableDictionary new];
+    // customerProperties[@"$firstName"] = @"users_first_name";
+    // customerProperties[@"$lastName"] = @"users_last_name";
+    // [[Klaviyo sharedInstance] trackPersonWithInfo: customerProperties];
+    
+    // Track Event: App Opened
+    [[Klaviyo sharedInstance] trackEvent:@"ObjC App Opened"];
+    
     // Override point for customization after application launch.
     return YES;
 }

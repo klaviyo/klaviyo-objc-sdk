@@ -1,9 +1,9 @@
 {
   "name": "KlaviyoObjC",
   "version": "0.1.0",
-  "summary": "A short description of KlaviyoObjC.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/KlaviyoObjC",
+  "summary": "Incorporate Klaviyo's event and person tracking functionality into iOS applications'",
+  "description": "Use the Klaviyo SDK to incorporate Klaviyo's event and person tracking functionality within iOS applications. Written in Objective-C.'",
+  "homepage": "https://github.com/klaviyo/klaviyo-objc-sdk",
   "license": "MIT",
   "authors": {
     "Katy Keuper": "katy.keuper@klaviyo.com"
@@ -13,7 +13,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
