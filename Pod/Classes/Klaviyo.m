@@ -496,8 +496,6 @@ Public method that tracks a user's activity within the application
             //Create the URL request
             NSURLRequest *request = [self apiRequestWithEndpoint:endpoint param:param];
             
-            NSLog(@"sending request %@", request);
-            
             [self updateNetworkActivityIndicator:YES];
             
             NSURLSessionDataTask *task = [self.urlSession dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
