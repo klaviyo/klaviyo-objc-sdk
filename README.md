@@ -61,23 +61,23 @@ Note that the only argument `trackPersonWithInfo` takes is a dictionary represen
 
 As was shown in the examples above, special person and event properties can be used. This works in a similar manner to the [Klaviyo Analytics API](https://www.klaviyo.com/docs). These are special properties that can be utilized when identifying a user or an event. They are:
     
-    +KLPersonEmailDictKey 
-    +KLPersonFirstNameDictKey
-    +KLPersonLastNameDictKey
-    +KLPersonPhoneNumberDictKey
-    +KLPersonTitleDictKey
-    +KLPersonOrganizationDictKey
-    +KLPersonCityDictKey
-    +KLPersonRegionDictKey
-    +KLPersonCountryDictKey
-    +KLPersonZipDictKey
-    +KLEventIDDictKey
-    +KLEventValueDictKey
+    KLPersonEmailDictKey 
+    KLPersonFirstNameDictKey
+    KLPersonLastNameDictKey
+    KLPersonPhoneNumberDictKey
+    KLPersonTitleDictKey
+    KLPersonOrganizationDictKey
+    KLPersonCityDictKey
+    KLPersonRegionDictKey
+    KLPersonCountryDictKey
+    KLPersonZipDictKey
+    KLEventIDDictKey
+    KLEventValueDictKey
 
 Lastly, cases where you wish to call `trackEvent` with only the eventName parameter and not have it result in anonymous user tracking you can use `setUpUserEmail` to configure your user's email address. By calling this once,  usually upon application login, Klaviyo can track all subsequent events as tied to the given user. However, you are also free to override this functionality by passing in a customer properties dictionary at any time: 
 
 ```objective-c
-[[Klaviyo sharedInstance] setUpUserEmail:@"john.smith@example.com"] 
+[[Klaviyo sharedInstance] setUpUserEmail:@"john.smith@example.com"]; 
 ```
 
 ## Author

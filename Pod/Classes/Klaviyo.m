@@ -270,8 +270,8 @@ Public method that tracks a user's activity within the application
         propDictionary = @{};
     NSMutableDictionary *retDict = [propDictionary mutableCopy];
     
-    // If email exists, use as primary key & track mobile device as secondary info
-    if (self.emailAddressExists) {
+    // If email exists and hasn't been passed in via dictionary, use it
+    if ((self.emailAddressExists) && !retDict[KLPersonEmailDictKey])  {
         retDict[KLPersonEmailDictKey] = self.userEmail;
     } else {
         retDict[CustomerPropertiesIDDictKey] = self.iOSIDString;
