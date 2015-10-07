@@ -21,8 +21,8 @@ NSString * const KlaviyoServerTrackPersonEndpoint           = @"/identify";
 /*
 Temporary API workaround. Swap out commented line of code once the $anonymous trackign is set up 
 */
-//NSString * const CustomerPropertiesIDDictKey                = @"$device_id";
-NSString * const CustomerPropertiesIDDictKey                = @"$id";
+NSString * const CustomerPropertiesIDDictKey                = @"$device_id";
+//NSString * const CustomerPropertiesIDDictKey                = @"$id";
 
 NSString * const CustomerPropertiesAppendDictKey            = @"$append";
 NSString * const CustomerPropertiesAPNTokensDictKey         = @"$ios_tokens";
