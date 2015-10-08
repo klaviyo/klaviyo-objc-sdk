@@ -64,6 +64,12 @@ The `track` function can be called with anywhere between 1-4 arguments:
 
 Note that the only argument `trackPersonWithInfo` takes is a dictionary representing a customer's attributes. This is different from `trackEvent`, which can take multiple arguments.
 
+## Anonymous Tracking Notice
+
+As of right now, anonymous tracking is *not fully functional*. What this means is that you cannot call `trackEvent` with only the eventName parameter unless `setUpUserEmail` has been called previously. Otherwise you must call `trackEvent` with an event name and customer properties parameter, including an email address at the very least.
+
+Eventually, once anonymous tracking is enabled you will be able to track events without any user information provided. In the meantime, make sure to pass in an email or id identifier in order for Klaviyo to track events successfully.
+
 ## Special Properties
 
 As was shown in the examples above, special person and event properties can be used. This works in a similar manner to the [Klaviyo Analytics API](https://www.klaviyo.com/docs). These are special properties that can be utilized when identifying a user or an event. They are:
