@@ -14,7 +14,7 @@ KlaviyoObjC is an SDK, written im Objective-C, for users to incorporate Klaviyo'
 
 ## Installation Options
 
-1. Cocoapods (recommended)
+1. CocoaPods (recommended)
 2. Download the blank, pre-configured project, and get started from scratch.
 
 KlaviyoObjC is available through [CocoaPods](http://cocoapods.org). To install
